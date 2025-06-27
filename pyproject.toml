@@ -1,9 +1,11 @@
 [project]
 name = "speechbrain"
-version = "0.1.0"
-description = "Add your description here"
+version = "0.5.13"
+description = "All-in-one speech toolkit in pure Python and Pytorch"
 readme = "README.md"
-# requires-python = ">=3.12,<3.13"
+authors = [
+    { name = "Mirco Ravanelli & Others", email = "speechbrain@gmail.com" }
+]
 requires-python = ">=3.11,<3.12"
 dependencies = [
     "black==19.10b0",
