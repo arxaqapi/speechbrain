@@ -144,6 +144,7 @@ class NewBobScheduler:
         """Loads the needed information."""
         del end_of_epoch  # Unused in this class
         del device  # Unused in here
+        # https://github.com/suno-ai/bark/issues/626
         data = torch.load(path, weights_only=False)
         self.hyperparam_value = data["hyperparam_value"]
         self.metric_values = data["metric_values"]
